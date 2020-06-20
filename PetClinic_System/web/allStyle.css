@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*login.jsp*/
+.login-top{
+    height: 250px;
+    background-color: cornflowerblue;
+}
+.login-top h1{
+    padding-left: 600px;
+    padding-top: 85px;
+    font-size: 55px;
+}
+.login-center{
+    height: 460px;
+    background-color: silver;
+}
+.login-center table{
+    /*margin-left: 570px;*/
+    padding-top: 80px;
+    margin: auto;
+}
+.login-center table .tr01 td{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: white;
+}
+.login-center table .tr02 td{
+    text-align: center;
+    padding-top: 80px;
+}
+.login-bottom{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+
+/*vetsearch.jsp*/
+.login-top a{
+    font-size: 19px;
+    font-weight: bold;
+    /*text-decoration-line: none;*/
+}
+.quit{
+    font-size: 19px;
+    margin-left: 1440px;
+}
+.quit:hover{
+    color: red;
+}
+.ul-sty{
+    margin-left: 30px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+.ul-sty li{
+    display: inline;
+}
+
+
+/*vetsearch_name.jsp*/
+.res-table{
+    text-align: center;
+}
+.res-tr td{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+}
+.res-mess td{
+    color: brown;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*petsearch.jsp*/
+.tr03 td{
+    text-align:center;
+    padding-top:30px;
+}
+
+
+.tr04 td{
+    padding-top: 50px;
+}
+
+.res-tr td select{
+    width: 140px;
+}
+
+.res-tr textarea{
+    overflow-y: scroll;
+    width: 150px;
+    height: 70px;
+}
+
+select,input{
+    font-size: 15px;
+}
